@@ -1,0 +1,15 @@
+.recommended-videos{
+
+}
+
+.video-item{
+  margin: 20px;
+  background-color: #F8E6FF;
+  padding: 20px;
+  border-radius: 10px;
+  width: 20vw;
+}
+
+.recommended-videos img{
+  border-radius: 0px;
+}

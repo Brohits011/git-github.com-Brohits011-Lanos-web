@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; 
+}
+
+.logo {
+  height: 4rem;
+}
+
+.rightPt {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.login-container{
+  display: flex;
+
+
+}
+.navBtn{
+  display: flex;
+  gap: 2rem;
+}
+
+.loginBtn{
+  width: 100px;
+  height: 40px;
+  background-color: #e4404e00;
+  border-color: #E4404F;
+  border-style: solid;
+  color: #E4404F;
+}
+
+.joinForFreeBtn{
+  width: 135px;
+  height: 40px;
+  background-color: #e4404e;
+  border-color: #E4404F;
+  border-style: solid;
+  color: white;
+}
+
+@media (max-width: 1080px){
+  .rightPt{
+    gap: 3rem;
+  }
+}
+
+/*----------------------------------------------------*/
+
+
+.course-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 40px 100px;
+  gap: 40px;
+  
+}
+
+.course-card {
+  width: 300px;
+  margin: 0px;
+  text-align: left;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.rating {
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.discount {
+  color: #814D95;
+  font-size: 16px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.buy-now {
+  background-color: #E295FF;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.buy-now:hover {
+  background-color: #c084d7;
+}
+
+.course-card h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.instructor{
+  font-size: 16px;
+  color: #8f8f8f;
+  margin-top: 10px;
+}
+
+.price{
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.CourseCardMain{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cardLowerPt{
+  padding: 0px 40px ;
+}
+
+.PriDis{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.course-card p{
+  margin: 0px;
+}
+
+

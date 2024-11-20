@@ -1,0 +1,118 @@
+/* StudentAdminPanel.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .admin-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .admin-header h1 {
+    font-size: 24px;
+    color: #f44336;
+  }
+  
+  .admin-header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .admin-header nav a:hover {
+    color: #f44336;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .search-add-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-add-container input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-student-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-student-btn:hover {
+    background-color: #e53935;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-table thead th {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+  }
+  
+  .student-table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #555;
+    margin-right: 10px;
+  }
+  
+  .delete-btn {
+    color: #f44336;
+  }
+  
+  .admin-footer {
+    margin-top: 40px;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .admin-footer nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .admin-footer nav a:hover {
+    color: #f44336;
+  }
+  

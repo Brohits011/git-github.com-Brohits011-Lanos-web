@@ -1,0 +1,56 @@
+h1{
+    font-size: 30px;
+    color: #E4404F;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.herosection{
+    background-color: #FFEFF0;
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}
+
+.herosectionBtn{
+    margin-top: 2rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.heroBtn1{
+    border-style: solid;
+    border-color: #E4404F;
+    background-color: #E4404F;
+    width: 160px;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.heroBtn2{
+    border-style: solid;
+    width: 160px;
+    height: 40px;
+    font-weight: 600;
+    color: #E4404F;
+    border-color: #E4404F;
+    background-color: #ca666f00;
+}
+
+.herosection img{
+    height: 480px;
+    padding-right: 4rem;
+    
+    
+}
+
+.heroLeftPt{
+    padding-left: 6rem;
+}
+
+
